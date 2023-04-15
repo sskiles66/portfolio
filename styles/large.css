@@ -1,0 +1,141 @@
+/*      
+https://coolors.co/000000-ffffff-dd6031-be95c4-407899
+https://fonts.google.com
+*/
+
+@media screen and (min-width: 650px){
+
+  nav {
+    display: flex;
+  }
+
+  nav a {
+    display: flex;
+  }
+  
+  #background {
+      
+    
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #background >* {
+    z-index: 1;
+  }
+
+  #square {
+    width: 100%;
+    height: 10px;
+    background: black;
+    position: absolute;
+    animation: mymove 10s infinite;
+    z-index: 0;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 5px black;
+  }
+  
+  /*@keyframes mymove {
+    0%   {top: 1%; left: 1%; }
+    25%  {top: 1%; left: 84%; background:white; box-shadow: 1px 1px 10px 5px white;}
+    50%  {top: 98%; left: 84%; background:black; box-shadow: 1px 1px 10px 5px black;}
+    75%  {top: 98%; left: 1%; background:white; box-shadow: 1px 1px 10px 5px white;}
+    100% {top: 1%; left: 1%;}
+  }*/
+
+  @keyframes mymove {
+    0%   {bottom: 1px; left: 1px; }
+    25%  {bottom: 1px; right: 10px; background:white; box-shadow: 1px 1px 10px 5px white;}
+    50%  {bottom: 1px; left: 1px; background:black; box-shadow: 1px 1px 10px 5px black;}
+    75%  {bottom: 1px; right: 1px; background:white; box-shadow: 1px 1px 10px 5px white;}
+    100% {bottom: 1px; left: 1px;}
+  }
+
+  /*@keyframes backmove {
+    0%   {bottom: 1px; left: 1px; }
+    25%  {bottom: 1px; right: 10px; background:white; box-shadow: 1px 1px 10px 5px white;}
+    50%  {bottom: 1px; left: 1px; background:black; box-shadow: 1px 1px 10px 5px black;}
+    75%  {bottom: 1px; right: 1px; background:white; box-shadow: 1px 1px 10px 5px white;}
+    100% {bottom: 1px; left: 1px;}
+  }
+  
+  #profile img {
+    border-radius: 50px;
+    background-color: black;
+    padding: 10px;
+    animation: mymove 10s infinite;
+  }*/
+
+  #slideshow img {
+    width: 520px;
+  }
+
+  #backButton {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+  }
+
+  #nextButton {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+  }
+
+  #slideshow {
+    padding-top: 50px;
+    position: relative;
+    height: 350px;
+    background-color: white;
+  }
+
+  .hamButton {
+    display: none;
+}
+
+#right {
+  display: flex;
+}
+
+.responsive #right {
+  display: flex;
+}
+
+
+
+#me-grid {
+  
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+#hist {
+  grid-row: 1/3;
+  grid-column: 1/4;
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 840px) and (min-width: 650px){
+  #me-grid {
+  
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+
+  #hist {
+    grid-row: 1/3;
+    grid-column: 1/3;
+  }
+}

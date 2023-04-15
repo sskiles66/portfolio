@@ -1,0 +1,233 @@
+/*      
+https://coolors.co/000000-ffffff-dd6031-be95c4-407899
+https://fonts.google.com
+*/
+
+
+
+#left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  h1, h2, h3, button {
+    font-family: 'Aboreto', cursive;
+  }
+  
+  p, li {
+    font-family: 'Raleway', sans-serif;
+  }
+
+#right {
+  
+  display: none;
+
+}
+
+.responsive #right {
+  display: block;
+}
+
+.hamButton {
+  position: absolute;
+  padding: 15px;
+  left: 10px;
+  top: 10px;
+  background-color: white;
+}
+  
+  /*nav a {
+      display: block;
+      width: 60px;
+      background-color: #dddddd;
+      padding-top: 50px;
+      position: sticky;
+      
+      
+  }*/
+  
+  nav {
+    
+    list-style-type: none;
+    display: block;
+    justify-content: space-around;
+    
+    color: white;
+    background-color: black;
+    align-items: center;
+    
+    
+    
+  }
+  
+  nav a {
+    
+    margin: 20px;
+    color: white;
+    
+    text-decoration: none;
+    font-family: 'Aboreto', cursive;
+    display: block;
+  }
+  
+  #background {
+    
+    padding: 20px;
+    background-color: white;
+    color: black;
+      
+    display: block;
+    
+  }
+  
+  #bann-mess{
+    align-items: center;
+    border: solid black;
+    padding:20px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 5px black;
+  }
+
+ 
+
+  #profile-img {
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  #profile {
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 5px black;
+    border: solid black;
+  }
+  
+  #profile p {
+    color: black;
+      
+  }
+  
+  main {
+    background-color: black;
+    color: white;
+    
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+  .social img {
+    width: 50px;
+  }
+
+  #linkedin {
+    width: 30px;
+    
+  }
+  
+  
+  main * {
+    text-align: center;
+  }
+  
+  #mission-statement, .grid p {
+    background-color: white;
+    color: black;
+    
+  }
+
+  #mission-statement {
+    padding: 50px;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: white;
+  }
+  
+  
+ .section {
+    padding: 20px;
+    color:white;
+    background-color: black;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px black;
+    line-height: 1.5;
+ }
+  
+  footer {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    background-color: black;
+  }
+
+
+/*Projects page*/
+
+
+#slideshow {
+  padding-top: 50px;
+  position: relative;
+  height: 450px;
+  background-color: white;
+}
+
+#slideshow img {
+  width: 400px;
+  background-color: black;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 5px black;
+}
+
+#slideshow button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  box-shadow: 1px 1px 10px 5px black;
+}
+
+
+#projects-main {
+  border-bottom: white solid;
+}
+
+
+#project-info {
+  padding: 20px;
+}
+
+#link {
+  color: white;
+}
+
+
+
+/*About Me page*/
+
+#about_me_main {
+  background-color: white;
+}
+
+#me-grid {
+  
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
